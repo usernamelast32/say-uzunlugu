@@ -1,0 +1,7 @@
+while True:
+    kelime=input("kelime giriniz (çıkmak icin (q) ya basınız)")
+    if kelime.lower() =="q":
+        print("bay")
+        break
+    uzunluk=len(kelime)
+    print("girdiginiz kelimenin uzunluğu",uzunluk)
